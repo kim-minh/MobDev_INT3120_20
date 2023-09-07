@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <Button
+            android:layout_column="1"
+            android:text="Button" />
+        <Button
+            android:text="Button" />
+        <Button
+            android:text="Button" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_column="1"
+            android:text="Button" />
+        <Button
+            android:text="Long Button" />
+        <Button
+            android:text="Button" />
+    </TableRow>
+</TableLayout>
