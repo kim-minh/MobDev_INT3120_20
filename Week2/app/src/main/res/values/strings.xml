@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week2</string>
+    <string name="page_title">Donation.1.5</string>
+    <string name="more">Setting</string>
+    <string name="content_description_more">What is this</string>
+    <string name="welcome">Welcome Homer!</string>
+    <string name="content">Please Give Generously</string>
+</resources>
