@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Week2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="toolbarStyle">@style/Widget.App.AppBarLayout</item>
+        <item name="android:statusBarColor">?attr/color</item>
+    </style>
+
+    <style name="Theme.Week2" parent="Base.Theme.Week2" />
+
+    <style name="Widget.App.AppBarLayout" parent="Widget.Material3.AppBarLayout">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.AppBarLayout</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Material3.TitleLarge</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Material3.TitleMedium</item>
+    </style>
+
+    <style name="ThemeOverlay.App.AppBarLayout" parent="">
+        <item name="colorSurface">@color/blue</item>
+        <item name="colorOnSurface">@color/blue</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>
